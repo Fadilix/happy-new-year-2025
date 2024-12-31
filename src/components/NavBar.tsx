@@ -28,7 +28,7 @@ const NavBar: React.FC = () => {
       <div className="right-side">
         <button className="go-wish">
           <Link to="/wish-form">
-            {language === "fr" ? <>Souaiter</> : <>Wish</>}
+            {language === "fr" ? <>Souhaiter</> : <>Wish</>}
           </Link>
         </button>
         <button className="selected-lang" onClick={handleShowLanguage}>
