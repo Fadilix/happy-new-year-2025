@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import NavBar from "../components/NavBar";
-import { Link } from "react-router-dom";
 import "../scss/WishForm.scss";
 import clipboardCopy from "clipboard-copy";
 
@@ -21,7 +20,7 @@ const WishForm: React.FC = () => {
 
   // console.log(formData.customText);
 
-  const [link, setLink] = useState("");
+  const [setLink] = useState("");
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
