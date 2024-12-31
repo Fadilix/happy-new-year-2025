@@ -15,7 +15,7 @@ const Home: React.FC = () => {
   };
 
   const frenchScript = {
-    h1: "Bonne année 2025",
+    h1: "Bonne Année 2025",
     p: "Alors que le calendrier tourne une nouvelle page, que les chapitres de votre vie soient écrits avec amour, bonheur et succès. Que l'année à venir vous apporte prospérité, bonne santé et la réalisation de vos rêves. Voici pour embrasser de nouvelles opportunités, chérir des moments précieux et créer de beaux souvenirs. Bonne année ! 🎉✨",
     button: "Souhaitez une bonne année",
   };
