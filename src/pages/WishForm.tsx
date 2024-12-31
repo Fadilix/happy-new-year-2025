@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NavBar from "../components/NavBar";
+import { Link } from "react-router-dom";
 import "../scss/WishForm.scss";
 import clipboardCopy from "clipboard-copy";
 
@@ -20,7 +21,7 @@ const WishForm: React.FC = () => {
 
   // console.log(formData.customText);
 
-  const [setLink] = useState("");
+  const [link, setLink] = useState("");
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
@@ -35,7 +36,7 @@ const WishForm: React.FC = () => {
   const lk = `${location}/wish/?sender=${newSender}&receiver=${newReceiver}&lang=${formData.language}${newCustomText && "&customText=" + newCustomText}`;
 
   // console.log(newReceiver, newSender);
-  const handleGenerateLink = (link: any) => {
+  const handleGenerateLink = (link: string) => {
     setLink(link);
 
     if (!formData.sender && !formData.receiver) {
@@ -167,6 +168,12 @@ const WishForm: React.FC = () => {
 
         {showLink && (
           <div className="results">
+            <Link
+              style={{ display: "none" }}
+              to={`/wish/?sender=${newSender}&receiver=${newReceiver}&lang=${formData.language}${newCustomText && "&customText=" + newCustomText}`}
+            >
+              {link}
+            </Link>
             <button
               onClick={() => {
                 handleCopyToClipBoard(lk);
