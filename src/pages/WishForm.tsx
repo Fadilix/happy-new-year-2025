@@ -29,7 +29,7 @@ const WishForm: React.FC = () => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
-  const location = `https://happy-new-year-2025-two.vercel.app`;
+  const location = `https://happy-new-2025.vercel.app`;
   const newSender = formData.sender.trim().replace(/ /g, "_");
   const newReceiver = formData.receiver.trim().replace(/ /g, "_");
   const newCustomText = formData.customText.trim().replace(/ /g, "_");
