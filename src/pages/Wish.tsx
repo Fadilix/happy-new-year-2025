@@ -68,7 +68,7 @@ const Wish: React.FC = () => {
       </div>
       <button className="send-to-someone">
         <Link to="/wish-form">
-          {language === "en" ? "Send Wish" : "Souhaiter une bonnée"}
+          {language === "en" ? "Send Wish" : "Souhaiter une bonne année"}
         </Link>
       </button>
       <GitHub />
