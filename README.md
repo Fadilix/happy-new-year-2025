@@ -1,6 +1,6 @@
 # Happy New Year 2025 Wisher 🎊
 React powered application that allows users to send personalized wishes to their friends and loved ones. Users can customize the content of the wish and share it with others.
-## [live preview here](https://happy-new-2025-two.vercel.app/)
+## [live preview here](https://happy-new-2025.vercel.app/)
 
 ## Technologies used 👨‍💻
 - React
@@ -20,7 +20,7 @@ React powered application that allows users to send personalized wishes to their
 
 ## Clone the repository ➕
 ```bash
-git clone https://github.com/Fadilix/happy-new-year-2024.git
+git clone https://github.com/Fadilix/happy-new-year-2025.git
 ```
 
 # Screenshots 🌊
