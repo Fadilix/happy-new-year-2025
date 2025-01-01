@@ -18,14 +18,14 @@ const Wish: React.FC = () => {
 
   const frScript = `Cher <b>${receiver}</b>, <br /><br />
 
-    En cette nouvelle année, je te souhaite tout le bonheur, la santé et la réussite que tu mérites. Que chaque jour soit une nouvelle aventure et que chaque moment soit rempli de joie et d'amour. Que 2024 t'apporte la réalisation de tes rêves et de magnifiques souvenirs à chérir. Bonne année!
+    En cette nouvelle année, je te souhaite tout le bonheur, la santé et la réussite que tu mérites. Que chaque jour soit une nouvelle aventure et que chaque moment soit rempli de joie et d'amour. Que 2025 t'apporte la réalisation de tes rêves et de magnifiques souvenirs à chérir. Bonne année!
     
     Avec toute mon amitié,
     `;
 
   const enScript = `Dear <b>${receiver}</b>, <br/><br />
 
-    In this new year, I wish you all the happiness, health, and success that you deserve. May each day be a new adventure and every moment filled with joy and love. May 2024 bring you the fulfillment of your dreams and beautiful memories to cherish. Happy New Year!
+    In this new year, I wish you all the happiness, health, and success that you deserve. May each day be a new adventure and every moment filled with joy and love. May 2025 bring you the fulfillment of your dreams and beautiful memories to cherish. Happy New Year!
 
     With all my friendship
     `;
