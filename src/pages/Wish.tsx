@@ -24,7 +24,6 @@ const Wish: React.FC = () => {
     `;
 
   const enScript = `Dear <b>${receiver}</b>, <br/><br />
-
     In this new year, I wish you all the happiness, health, and success that you deserve. May each day be a new adventure and every moment filled with joy and love. May 2025 bring you the fulfillment of your dreams and beautiful memories to cherish. Happy New Year!
 
     With all my friendship
