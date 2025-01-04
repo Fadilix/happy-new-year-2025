@@ -24,7 +24,9 @@ const WishForm: React.FC = () => {
   const [link, setLink] = useState("");
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
@@ -117,9 +119,9 @@ const WishForm: React.FC = () => {
                 ? "Custom text (optional)"
                 : "Message personnalisé"}
             </label>
-            <input
+            <textarea
+              className="customText"
               style={{ border: "1px solid #555", textShadow: "0 0 1px white" }}
-              type="text"
               name="customText"
               value={formData.customText}
               onChange={handleInputChange}
@@ -203,4 +205,3 @@ const WishForm: React.FC = () => {
 };
 
 export default WishForm;
-
