@@ -77,4 +77,3 @@ const Wish: React.FC = () => {
 };
 
 export default Wish;
-

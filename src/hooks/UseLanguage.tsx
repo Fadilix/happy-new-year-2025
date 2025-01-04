@@ -1,15 +1,15 @@
 import { useContext } from "react";
 import { LangContext } from "../contexts/LanguageContext";
 
-
 const useLanguage = () => {
-    const context = useContext(LangContext);
+  const context = useContext(LangContext);
 
-    if (!context) {
-        throw new Error("useLanguage must be used withing a LanguageProvider");
-    }
+  if (!context) {
+    throw new Error("useLanguage must be used withing a LanguageProvider");
+  }
 
-    return context;
-}
+  return context;
+};
 
 export default useLanguage;
+
