@@ -1,11 +1,11 @@
-import React from 'react'
-import { RouterProvider } from "react-router-dom"
-import { routes } from './routes/routes';
-import Snowfall from 'react-snowfall';
-import { Toaster } from "react-hot-toast"
-import { Analytics } from '@vercel/analytics/react';
-import CustomCursor from './components/CustomCursor';
-
+import React from "react";
+import { RouterProvider } from "react-router-dom";
+import { routes } from "./routes/routes";
+import Snowfall from "react-snowfall";
+import { Toaster } from "react-hot-toast";
+import { Analytics } from "@vercel/analytics/react";
+import CustomCursor from "./components/CustomCursor";
+import "./index.scss";
 
 const App: React.FC = () => {
   return (
@@ -16,7 +16,8 @@ const App: React.FC = () => {
       <CustomCursor />
       <RouterProvider router={routes} />
     </div>
-  )
-}
+  );
+};
 
 export default App;
+

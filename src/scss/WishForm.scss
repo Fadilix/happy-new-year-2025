@@ -29,6 +29,18 @@
         margin-bottom: 20px;
       }
 
+      textarea {
+        border: 1px solid #ccc;
+        width: 220px;
+        background: transparent;
+        height: 30px;
+        outline: none;
+        color: white;
+        padding: 2px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
       select {
         border: 1px solid #ccc;
         width: 220px;
@@ -125,4 +137,3 @@
     }
   }
 }
-
